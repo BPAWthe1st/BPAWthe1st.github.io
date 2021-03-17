@@ -1,0 +1,69 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    color: blue;
+    text-align: right;
+    <!-- size="30px"><i> -->
+}
+
+.h2_big {
+    font-size: 3em;
+}
+
+h3 {
+    color: red;
+    text-align: right;
+}
+
+p::first-letter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+a:visited {
+    color: blue;
+}
+
+.red_font {
+    color: red;
+}
+
+@keyframes table_background
+{
+from {background: cyan;}
+to {background: green;}
+}
+
+@-moz-keyframes table_background /* Firefox */
+{
+from {background: cyan;}
+to {background: green;}
+}
+
+@-webkit-keyframes table_background /* Safari and Chrome */
+{
+from {background: cyan;}
+to {background: green;}
+}
+
+table {
+    animation: table_background 5s;
+    -moz-animation: table_background 5s; /* Firefox */
+    -webkit-animation: table_background 5s; /* Safari and Chrome */
+    padding: 10px;
+    border-spacing: 15px;
+}
+    
+tbody>tr>:nth-child(1){
+    font-weight: bold;
+    text-align: center;
+}
