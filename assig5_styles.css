@@ -1,0 +1,49 @@
+body {
+    background-color: #CCFFFF";
+}
+
+#nav {
+    text-align: center;
+}
+
+button {
+    background-color: #990000;
+    border-radius: 15px;
+    padding: 15px;
+    width: 10%;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+
+h3 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: 2.5em;
+    color: #990000;
+}
+
+#footer {
+    font-weight: bold;
+    font-size: .65em;
+    color: white;
+    background-color: #990000;
+    text-align: center;
+    padding: 20px;
+}
