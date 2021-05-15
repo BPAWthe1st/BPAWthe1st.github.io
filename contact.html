@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="main_page_styles.css">
+        <link rel="shortcut icon" type="image/jpg" href="panda-favicon.png"/>
+        <title>Assignment 7</title>
+        <meta charset="utf-8">
+        <meta name="description" content="contact form">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+
+            form {
+              padding: 1em;
+              background: #f9f9f9;
+              border: 1px solid black;
+              max-width: 600px;
+            }
+            form input {
+              margin-bottom: 1rem;
+              background: white;
+              border: 1px solid #9c9c9c;
+            }
+
+            .myinput {
+              width: 100%;
+              padding: 0.7em;
+              margin-bottom: 0.5rem;
+            }
+
+            form div { text-align:center; }
+            input[type="submit"], input[type="reset"] {
+              background: lightgray;
+              padding: 0.7em;
+              border: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="grid-container">
+    
+            <div class="header">
+                <h1>Brendan Williams - CNIT 132</h1>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="homework1.html">Home</a></li>
+                    <li><a href="assignments.html">Assignments</a></li>
+                    <li><a href="meetup_report.html">MeetUp Report</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <h2>Contact Me</h2>
+                <p>
+                To get in touch with me, please use the contact info at bottom of this site or fill in the contact form.
+                </p>
+                <form class="form1" action="#" method="post">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" class="myinput" required name="name" id="name" maxlength="20">
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" class="myinput" required name="email" id="email" size="50">
+                    <br>
+                    <label for="comments">Comments</label>
+                    <br>
+                    <input type="text" class="myinput" name="comments" id="comments" maxlength="200">
+
+                    <div><input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear"></div>
+                </form>
+            </div>
+
+            <div class="footer">
+                <p>
+                Created by: Brendan P A Williams <br>
+                Last Updated: 15 May 2021 <br>
+                <a href = "mailto:bwill188@mail.ccsf.edu">Contact Me</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
